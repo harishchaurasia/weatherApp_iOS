@@ -16,6 +16,7 @@ struct StartPage: View {
         if isActive {
             WeatherPage()
         }
+        
         else
         {
             VStack{

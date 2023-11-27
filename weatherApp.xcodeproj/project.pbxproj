@@ -26,6 +26,15 @@
 		271F57A62B11ED3000D577A5 /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271F57A52B11ED3000D577A5 /* StartPage.swift */; };
 		271F57A82B11EE0700D577A5 /* startPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 271F57A72B11EE0700D577A5 /* startPage.png */; };
 		271F57AA2B11EE2600D577A5 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 271F57A92B11EE2600D577A5 /* logo.png */; };
+		278E80872B143FB8002A73D9 /* weatherPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 278E80862B143FB8002A73D9 /* weatherPage.png */; };
+		278E80882B143FB8002A73D9 /* weatherPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 278E80862B143FB8002A73D9 /* weatherPage.png */; };
+		278E80892B143FB8002A73D9 /* weatherPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 278E80862B143FB8002A73D9 /* weatherPage.png */; };
+		278E808B2B14EFC1002A73D9 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 278E808A2B14EFC1002A73D9 /* SF-Pro-Display-Semibold.otf */; };
+		278E808C2B14EFC1002A73D9 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 278E808A2B14EFC1002A73D9 /* SF-Pro-Display-Semibold.otf */; };
+		278E808D2B14EFC1002A73D9 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 278E808A2B14EFC1002A73D9 /* SF-Pro-Display-Semibold.otf */; };
+		278E808F2B14F68F002A73D9 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 278E808E2B14F68F002A73D9 /* SF-Pro-Display-Regular.otf */; };
+		278E80902B14F68F002A73D9 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 278E808E2B14F68F002A73D9 /* SF-Pro-Display-Regular.otf */; };
+		278E80912B14F68F002A73D9 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 278E808E2B14F68F002A73D9 /* SF-Pro-Display-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +72,9 @@
 		271F57A72B11EE0700D577A5 /* startPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startPage.png; sourceTree = "<group>"; };
 		271F57A92B11EE2600D577A5 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		271F57AB2B11FA0E00D577A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		278E80862B143FB8002A73D9 /* weatherPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weatherPage.png; sourceTree = "<group>"; };
+		278E808A2B14EFC1002A73D9 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		278E808E2B14F68F002A73D9 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				270F58392B1297FE0031C3EC /* SF-Pro-Display-Bold.otf */,
+				278E808A2B14EFC1002A73D9 /* SF-Pro-Display-Semibold.otf */,
+				278E808E2B14F68F002A73D9 /* SF-Pro-Display-Regular.otf */,
 				270F58382B1297FE0031C3EC /* SF-Pro-Display-Light.otf */,
 				270F583A2B1297FE0031C3EC /* SF-Pro-Display-Medium.otf */,
 			);
@@ -127,6 +141,7 @@
 				271F57AB2B11FA0E00D577A5 /* Info.plist */,
 				271F57A92B11EE2600D577A5 /* logo.png */,
 				271F57A72B11EE0700D577A5 /* startPage.png */,
+				278E80862B143FB8002A73D9 /* weatherPage.png */,
 				271F57752B11E53D00D577A5 /* weatherAppApp.swift */,
 				271F57792B11E53E00D577A5 /* Assets.xcassets */,
 				271F577B2B11E53E00D577A5 /* Preview Content */,
@@ -271,7 +286,10 @@
 				271F57A82B11EE0700D577A5 /* startPage.png in Resources */,
 				270F583E2B1298310031C3EC /* SF-Pro-Display-Light.otf in Resources */,
 				271F577A2B11E53E00D577A5 /* Assets.xcassets in Resources */,
+				278E808B2B14EFC1002A73D9 /* SF-Pro-Display-Semibold.otf in Resources */,
 				270F58412B1298350031C3EC /* SF-Pro-Display-Medium.otf in Resources */,
+				278E808F2B14F68F002A73D9 /* SF-Pro-Display-Regular.otf in Resources */,
+				278E80872B143FB8002A73D9 /* weatherPage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +299,10 @@
 			files = (
 				270F58422B1298360031C3EC /* SF-Pro-Display-Medium.otf in Resources */,
 				270F583F2B1298320031C3EC /* SF-Pro-Display-Light.otf in Resources */,
+				278E808C2B14EFC1002A73D9 /* SF-Pro-Display-Semibold.otf in Resources */,
 				270F583C2B12982E0031C3EC /* SF-Pro-Display-Bold.otf in Resources */,
+				278E80902B14F68F002A73D9 /* SF-Pro-Display-Regular.otf in Resources */,
+				278E80882B143FB8002A73D9 /* weatherPage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +312,10 @@
 			files = (
 				270F58432B1298370031C3EC /* SF-Pro-Display-Medium.otf in Resources */,
 				270F58402B1298330031C3EC /* SF-Pro-Display-Light.otf in Resources */,
+				278E808D2B14EFC1002A73D9 /* SF-Pro-Display-Semibold.otf in Resources */,
 				270F583D2B12982E0031C3EC /* SF-Pro-Display-Bold.otf in Resources */,
+				278E80912B14F68F002A73D9 /* SF-Pro-Display-Regular.otf in Resources */,
+				278E80892B143FB8002A73D9 /* weatherPage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
