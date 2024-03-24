@@ -14,7 +14,8 @@ struct StartPage: View {
     var body: some View {
         
         if isActive {
-            WeatherPage()
+            //WeatherPage()
+            CityListView()
         }
         
         else
@@ -42,12 +43,12 @@ struct StartPage: View {
                             .foregroundColor(Color(hex: "274654"))
                             .position(x: 200, y: 550)
                             .font(Font.custom("SFProDisplay-Medium", size: 64))
-                            .shadow(color: Color(hex: "274654"), radius: 25, x: 10, y: 10)
+                            .shadow(color: Color(hex: "274654"), radius: 20, x: 10, y: 10)
                         
                         Text("Your favorite Weather app")
                             .foregroundColor(Color(hex: "055E68"))
                             .position(CGPoint(x: 200.0, y: 610))
-                            .font(Font.custom("SFProDisplay-Medium", size: 18))
+                            .font(Font.custom("SFProDisplay-Medium", size: 18.2))
                     }
                     .scaleEffect(size)
                     .opacity(opacity)
